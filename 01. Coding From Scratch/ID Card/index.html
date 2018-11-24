@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SWD100 Final Project</title>
+
+</head>
+
+<body>
+
+    <div class="background-wrapper"></div>
+
+    <div class="master-wrapper" align="middle">
+
+        <h1 class="header1">Let's Create an ID card!</h1>
+
+        <form class="container" align="middle">
+            <label>First Name:</label><input id="fname" type="text" name="fname"><br>
+            <label>Last Name:</label><input id="lname" type="text" name="lname"><br>
+            <label>Age:</label><input id="age" type="text" name="age"><br>
+            <label>Phone Number:</label><input id="phone-num" type="text" name="number"><br>
+            <label>Address:</label><input id="address" type="text" name="address"><br><br>
+        </form>
+
+        <button class="submit-button" onclick="idCard()">Click Me</button><br><br>
+
+        <div id="idCard" align="middle">
+            <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+            <p id="postFullName"></p>
+            <p id="postAge"></p>
+            <p id="postPhoneNumber"></p>
+            <p id="postAddress"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

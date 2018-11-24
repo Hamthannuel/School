@@ -1,0 +1,120 @@
+html, body {
+    /* Background Styling */
+    /* The *background* took place of the *background-image* */
+    /* applying a linear gradient with the proper rgb's allowed me to apply an opacity to the background without affecting the rest of the html page */
+    /* background-image: url(http://www.lol-wallpapers.com/wp-content/uploads/2018/06/Classic-Twisted-Fate-Splash-Art-Update-HD-4k-6k-Wallpaper-Background-Official-Art-Artwork-League-of-Legends-lol.jpg); */
+    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url(https://mitchteemley.files.wordpress.com/2017/11/the-dark-alley-photography-by-kimera-jam-body-girl-shadows-fog-mist.jpg);
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* opacity: 0.5; */
+    border: 5px solid black;
+}
+
+/* H1 Style */
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 18px;
+}
+
+/* Form Styling */
+form {
+    display: block;
+    /*background-image: url(http://wwwcdn.impact-books.com/wp-content/uploads/tumblr_n55rvati6B1tava2vo2_r1_500.png);*/
+    background-image: url(http://2.bp.blogspot.com/-jb5mFF08yMA/UHp6Ab63qSI/AAAAAAAAAW0/BhQMO0L7FDY/s1600/Horror-HQ-Wallpapers-42.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid black;
+    padding: 20px 5px;
+    margin: 50px 15px;
+    font-weight: bold;
+    border-radius: 18px;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    width: 500px;
+    clear: both;
+    color: white;
+    font-weight: 2em;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+/* Input Field Styling */
+.container input {
+    width: 100%;
+    clear: both;
+    background: transparent;
+    border: 3px solid brown;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    background: #8a4b08;
+
+    background-image: -webkit-linear-gradient(top, #2a120a, #610b0b);
+    background-image: -moz-linear-gradient(top, #2a120a, #610b0b);
+    background-image: -ms-linear-gradient(top, #2a120a, #610b0b);
+    background-image: -o-linear-gradient(top, #2a120a, #0a0202);
+    background-image: linear-gradient(to bottom, #2a120a, #610b0b);
+
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+
+    text-shadow: 3px 2px 1px #9daef5;
+    box-shadow: 6px 5px 24px #666666;
+    -webkit-box-shadow: 6px 5px 24px #66666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+
+
+    font-family: Arial, sans-serif, helvetica;
+    color: #fafafa;
+    font-size: 27px;
+    text-decoration: none;
+
+}
+
+/* On Hover Submit Styling */
+.submit-button:hover {
+    background: #d7df01;
+
+    background-image: -webkit-linear-gradient(top, #d7df01, #aeb404);
+    background-image: -moz-linear-gradient(top, #d7df01, #aeb404);
+    background-image: -mo-linear-gradient(top, #d7df01, #aeb404);
+    background-image: -o-linear-gradient(top, #d7df01, #aeb404;
+    background-image: linear-gradient(to bottom, #d7df01, #aeb404);
+
+    text-decoration: none;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+#idCard {
+    background-image: url(http://2.bp.blogspot.com/-jb5mFF08yMA/UHp6Ab63qSI/AAAAAAAAAW0/BhQMO0L7FDY/s1600/Horror-HQ-Wallpapers-42.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid black;
+    border-radius: 18px;
+    height: 14em;
+    width: 25em;
+}
